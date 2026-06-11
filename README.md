@@ -53,3 +53,23 @@ pip install -r requirements.txt
 
 ### 4. Set up environment variables
 Create a `.env` file:
+
+doc-ai-assistant/
+├── app.py              # Streamlit app
+├── rag.py              # RAG pipeline (testing)
+├── test.py             # LLM connection test
+├── requirements.txt    # Dependencies
+├── .env                # API keys (not committed)
+├── .gitignore
+└── README.md
+
+
+## Environment Variables
+| Variable | Description |
+|---|---|
+| GROQ_API_KEY | Groq API key (free at console.groq.com) |
+
+##  Author
+**Oumayma Oumouhou**
+- GitHub: [@oumaymaeddy](https://github.com/oumaymaeddy)
+- LinkedIn: https://www.linkedin.com/in/oumayma-oumouhou/
