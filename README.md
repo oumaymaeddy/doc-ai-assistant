@@ -55,13 +55,15 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 doc-ai-assistant/
-├── app.py              # Streamlit app
-├── rag.py              # RAG pipeline (testing)
-├── test.py             # LLM connection test
-├── requirements.txt    # Dependencies
-├── .env                # API keys (not committed)
-├── .gitignore
-└── README.md
+├── src/
+│   ├── app.py
+│   └── rag.py
+├── tests/
+│   └── test_rag.py
+├── .github/workflows/ci.yml
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 
 ## Environment Variables
